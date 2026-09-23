@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heureka – Tiedekeskus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Heureka</h1>
+
+        <nav>
+            <a href="index.html">Etusivu</a>
+            <a href="about.html">Tietoa Heurekasta</a>
+            <a href="https://www.heureka.fi/">Heurekan verkkosivut</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Tiede kuuluu kaikille</h2>
+
+            <p>
+                Heureka on suomalainen tiedekeskus, jossa tieteeseen
+                voi tutustua itse kokeilemalla ja tutkimalla.
+            </p>
+
+            <img src="images/heureka.jpg"
+                 alt="Tiedekeskus Heureka">
+        </section>
+
+        <section>
+            <h2>Tutustu Heurekaan</h2>
+
+            <p>
+                Heurekassa on paljon nähtävää ja koettavaa
+                kaikenikäisille vierailijoille.
+            </p>
+
+            <ul>
+                <li>Näyttelyitä</li>
+                <li>Tiedettä ja kokeiluja</li>
+                <li>Planetaario</li>
+                <li>Tapahtumia</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>JavaScript-kokeilu</h2>
+
+            <p>Kokeile alla olevaa painiketta.</p>
+
+            <button onclick="naytaViesti()">Paina tästä</button>
+        </section>
+
+        <section>
+            <h2>Tiede yllättää</h2>
+
+            <p>
+                Valitse, montako satunnaista neuvoa haluat hakea
+                avoimesta rajapinnasta.
+            </p>
+
+            <label for="maara">Neuvojen määrä:</label>
+
+            <select id="maara">
+                <option value="1">1 neuvo</option>
+                <option value="2">2 neuvoa</option>
+                <option value="3">3 neuvoa</option>
+            </select>
+
+            <button id="haeNappi">Hae neuvoja</button>
+
+            <div id="tulosTeksti">
+                Vastaus ilmestyy tähän...
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Harjoitustyö – Johdatus sovelluskehitykseen 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
